@@ -39,7 +39,7 @@ web_server:
   
 dashboard_import:
   package_import_url: github://SkyexTechnologies/word-clock-one/word-clock-one.yaml@main
-  import_full_config: True
+  import_full_config: False
 
 time:
   - platform: sntp

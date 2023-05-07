@@ -1,4 +1,7 @@
-# CHANGEME: Set these variable to your liking
-title: ESPHome Project Template
-description: Powered by ESPHome and ESP Web Tools
-theme: jekyll-theme-slate
+title: Word Clock One
+description: Documentation for the Word Clock One smart clock!
+remote_theme: pmarsceill/just-the-docs
+
+url: https://skyextechnologies.github.io
+
+heading_anchors: false

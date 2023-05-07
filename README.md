@@ -1,21 +1,10 @@
-# ESPHome Project Template
+# Word Clock One
+![Build and Publish ESPHome Firmware and Website](https://github.com/SkyexTechnologies/word-clock-one/actions/workflows/publish.yml/badge.svg) [![License: MIT](https://img.shields.io/github/license/SkyexTechnologies/word-clock-one.svg)](https://opensource.org/licenses/MIT)
 
-This repo serves as a template for creating a new ESPHome project.
+The Word Clock One is not just a regular clock but a creative and unique RGB clock that displays the time using words. It is a perfect fit for anyone who wants to add a touch of innovation to their home or office.
 
-It includes a GitHub workflow that will automatically build the configuration(s) and then deploys a simple 
-website via GitHub pages that utilises [ESP Web Tools](https://esphome.github.io/esp-web-tools/) for users to 
-easily install your project onto their device.
+The clock has a built-in Wi-Fi module that allows it to connect to the internet seamlessly. Once connected, the clock can be used right away or can be integrated with [Home Assistant](https://www.home-assistant.io/) through [ESPHome](https://esphome.io/), a powerful home automation platform. This allows users to control the Word Clock One and other smart devices in their home through a single interface.
 
-## Instructions
+The Word Clock One has a customizable RGB LED backlight that can display up to 16 million colors. Users can adjust the brightness and color of the backlight to suit their preference or to match the ambiance of their environment. Additionally, the clock has a sleek and modern design that can complement any interior décor.
 
-1. Use this repo template to [generate](https://github.com/esphome/esphome-project-template/generate) your own repository.
-   - Make sure to check `Include all branches` so that GitHub Pages is automatically enabled.
-2. Clone your new repository.
-3. Add your project specific YAML configuration(s) along with the contents of the `project-template-....yaml` files, taking note of the comments in this template file and name accordingly.
-4. 
-    a. Update [.github/workflows/publish.yml](.github/workflows/publish.yml) to contain your own YAML config filename(s).
-    b. Update [.github/workflows/ci.yml](.github/workflows/ci.yml) to contain your own YAML config filename(s).
-5. Update [static/_config.yml](static/_config.yml) to change the title, description and basic theme of the generated website.
-6. Add more content to the [static/index.md](static/index.md) file to explain your project.
-    Make sure to leave the installation code tags in place so users get the install button.
-7. Push your changes to the repository and GitHub Actions will automatically build and deploy your project.
+The clock is easy to set up and comes with an official user guide that provides step-by-step instructions on how to use the device. The official user guide for the Word Clock One is located [here](https://skyextechnologies.github.io/word-clock-one/)!

@@ -48,10 +48,8 @@ time:
 button:
   - platform: factory_reset
     id: factory_reset_button
-    internal: True
   - platform: restart
     id: restart_button
-    internal: True
 
 binary_sensor:
   - platform: gpio
@@ -65,12 +63,10 @@ binary_sensor:
       - min_length: 2s
         max_length: 5s
         then:
-          - logger.log: "Restart Button Pressed"
           - button.press: restart_button
       - min_length: 10s
         max_length: 20s
         then:
-          - logger.log: "Factory Reset Button Pressed"
           - button.press: factory_reset_button
 
 select:

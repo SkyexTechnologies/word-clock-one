@@ -28,7 +28,6 @@ ota:
 wifi:
   fast_connect: False
   ap: {}
-  use_address: word-clock-one.local
 
 captive_portal:
 

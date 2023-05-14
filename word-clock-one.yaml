@@ -28,6 +28,7 @@ ota:
 wifi:
   fast_connect: False
   ap: {}
+  use_address: word-clock-one.local
 
 captive_portal:
 
@@ -48,8 +49,10 @@ time:
 button:
   - platform: factory_reset
     id: factory_reset_button
+    name: Factory Reset Word Clock
   - platform: restart
     id: restart_button
+    name: Restart Word Clock
 
 binary_sensor:
   - platform: gpio

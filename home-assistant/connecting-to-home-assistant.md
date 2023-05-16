@@ -9,7 +9,8 @@ parent: Home Assistant
 
 {: .no_toc }
 
-TBD
+This page explains how to connect the clock to home assistant and expose all the entities in ESPHome.
+
 {: .fs-6 .fw-300 }
 
 TBD

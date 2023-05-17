@@ -7,10 +7,10 @@ nav_order: 3
 {: .no_toc }
 
 This page provides a comprehensive guide on setting up your clock after powering it up. You'll learn how to connect to WiFi, use the clock's webpage for customization, and adjust color, brightness, time settings, and more.
-
 {: .fs-6 .fw-300 }
 
 # Setting Up
+
 The design of this clock allows it to function independently, eliminating the need for downloading an app or creating an account on unfamiliar platforms. However, to configure the device and access features like obtaining the current time, selecting colors, and making customizations, it is necessary to connect to WiFi. 
 
 # Connecting to the Wifi
@@ -23,13 +23,10 @@ Once you have connected to the `word-clock-one-xxxxxx` network, a popup should a
 
 ![Connect to Word Clock to Wifi](https://skyextechnologies.github.io/word-clock-one/images/wifi-connect.png)
 
+{: .warning-title }
+If the popup does not appear automatically, you can manually browse to the IP address [192.168.4.1](http://192.168.4.1) in your web browser to access the configuration page.
 
-, wait for the popup to come. If it does not come, navigate to 192.162.4.1. Fill in the wifi credentials, which is necessary to obtain the time and setup the clock. Once filled in, the popup will close and you can connect back to your normal wifi/internet. 
-
-{: .important }
-> If the popup does not appear automatically, you can manually browse to the IP address [192.168.4.1](http://192.168.4.1) in your web browser to access the configuration page.
-
-{: .note }
+{: .warning-title }
 Make sure to remember the unique ID (`xxxxxx`) of your clock, which is the same as the `word-clock-one-xxxxxx` network name, for the next step in the setup process.
 
 # Webpage

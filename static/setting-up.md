@@ -17,11 +17,11 @@ The design of this clock allows it to function independently, eliminating the ne
 
 To begin the setup process, open your device's WiFi settings and locate the network named `word-clock-one-xxxxxx` (where `xxxxxx` corresponds to the unique ID of your clock). Connect to this network to establish a direct connection between your device and the clock, enabling further configuration.
 
-![Connect to Word Clock](https://skyextechnologies.github.io/word-clock-one/images/wifi-connect-to-word-clock.png)
+![Connect to Word Clock](https://skyextechnologies.github.io/word-clock-one/images/wifi-connect-to-word-clock-crop.png)
 
 Once you have connected to the `word-clock-one-xxxxxx` network, a popup should appear, allowing you to enter your WiFi credentials. This step enables the clock to connect to your personal WiFi network. From there, you can provide your WiFi credentials and establish the connection between the clock and your WiFi network.
 
-![Connect to Word Clock to Wifi](https://skyextechnologies.github.io/word-clock-one/images/wifi-connect.png)
+![Connect to Word Clock to Wifi](https://skyextechnologies.github.io/word-clock-one/images/wifi-connect-crop.png)
 
 Once the clock has successfully connected to the internet, the current time should automatically appear within approximately 30 seconds.
 
@@ -60,15 +60,45 @@ When you connect your clock to Home Assistant, the color settings are configured
 If you prefer a warm white color for your clock display, we recommend using the following color settings. *TODO*
 
 ## Brightness Control
--> Automatic control
-    Setup Brightness in bright room, on daytime, and select with slider maximum brightness slider the preferred brightness of the led's
-    Then dark room, select with slider minimum brightness.
--> Manual Control
-    Select the brightness with the slider at 01, this brightness will remain constant.
+To control the brightness of your clock, you have two options available. The first option is the automatic mode, where the clock's brightness adjusts automatically based on the ambient light intensity in the room. This ensures optimal visibility and comfort in different lighting conditions.
+
+Alternatively, you can switch to manual mode, allowing you to manually select and fix the desired brightness level. In this mode, the brightness setting remains constant regardless of any changes in the ambient light intensity. 
+
+### Automatic Mode
+To use the automatic brightness control feature, follow these steps:
+
+1. Ensure that the `Automatic` option is selected under the `03. Brightness` setting.
+2. Place the clock in a well-lit room and use the slider labeled `05. Maximum Brightness` to set your desired brightness level for brighter environments.
+3. Next, place the clock in a dark room and use the slider labeled `04. Minimum Brightness` to set your desired brightness level for darker environments.
+
+![Webpage Brightness Automatic](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-brightness-marked-only.png)
+
+Once these settings are configured, the clock will automatically adjust its brightness based on the ambient light intensity in the room.
+
+{: .warning-title }
+Please be aware that if you have selected a very low value for `04. Minimum Brightness` or if you have chosen this value in a brightly lit room, the clock may appear to be turned off or extremely dim. In such cases, it is recommended to adjust the brightness setting accordingly by increasing the value for `04. Minimum Brightness`.
+
+### Manual Mode
+To set a fixed brightness for your clock, follow these steps:
+
+1. Select the `Manual` option under the `03. Brightness` setting.
+2. Use the slider labeled `01. Word Clock` to adjust and set the desired brightness level.
+
+![Webpage Brightness Manual](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-word-clock-marked-only.png)
+
+By choosing the manual mode and adjusting the brightness using the `01. Word Clock` slider, you can establish a fixed brightness that remains constant regardless of the ambient light intensity. 
 
 ## Adjust Time
--> Time is set automatically once connected based on the time settings of the router. I.e. time and time-zone. If for some reason, the time is incorrect, you can adjust the minutes and hours with the sliders, which will add the correct number of hours/minutes.
+Upon connecting, the clock automatically sets the time based on the time settings of your router, including the time, time zone, and any adjustments for winter or summer time. However, if you find that the time is incorrect for any reason, you can manually adjust it using the sliders labeled "06. Hour Offset" and "07. Minutes Offset". These sliders allow you to add the correct number of hours and minutes to align the clock with the accurate time. 
+
+![Webpage Time Offset](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-offset-marked-only.png)
+
+## Transition
+When the time changes, you have the option to make the words on the clock change instantly or gradually fade out the old time and fade in the new time. This can be selected using the transition slider labeled `02. Transition`. The transition slider allows you to choose any value between 0 and 10. A transition setting of 0 corresponds to an instant change, while a setting of 10 means it takes 10 seconds to transition from the old time to the new time.
+
+![Webpage Transition](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-transition-marked-only.png)
 
 ## Customizing
--> Transition; It is possible that when the time changes, to let the words change instantly, or to gradually fade out the old time and fade in the new time. This can be selected with the transition slider. Transition of 0 corresponds with an instant change of the time. Transition of 10 means that it takes 10 seconds to change from the old to new time. In other words, the /time fade-out in 5 seconds and fades-in in 5 seconds as well.
--> It is possible to turn on/off differents parts of the clock. Such as the "it is", minutes and week days indications. This is done via the options 08 Indication: It is, 09 Indication: Minutes and 10 Indication: Week Days respectively. 
+You have the flexibility to turn on or off different parts of the clock, such as the "it is" indication, minutes indication, and week days indication. This can be achieved through the respective options: `08 Indication: It is`, `09 Indication: Minutes` and `10 Indication: Week Days` By toggling these options, you can customize the display of the clock to show or hide the specific parts.
+
+![Webpage Indication](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-indication-marked-only.png)

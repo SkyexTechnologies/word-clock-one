@@ -4,12 +4,12 @@ layout: default
 nav_order: 3
 ---
 
+# Setting Up
+
 {: .no_toc }
 
 This page provides a comprehensive guide on setting up your clock after powering it up. You'll learn how to connect to WiFi, use the clock's webpage for customization, and adjust color, brightness, time settings, and more.
 {: .fs-6 .fw-300 }
-
-# Setting Up
 
 The design of this clock allows it to function independently, eliminating the need for downloading an app or creating an account on unfamiliar platforms. However, to configure the device and access features like obtaining the current time, selecting colors, and making customizations, it is necessary to connect to WiFi. 
 

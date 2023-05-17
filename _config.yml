@@ -5,3 +5,8 @@ remote_theme: pmarsceill/just-the-docs
 url: https://skyextechnologies.github.io
 
 heading_anchors: false
+
+callouts:
+  warning:
+    title: Warning
+    color: red

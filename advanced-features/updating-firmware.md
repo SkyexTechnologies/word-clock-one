@@ -28,14 +28,14 @@ The firmware on your clock will not require updates. However, if you encounter c
 
 4. Wait for the firmware installation to complete. Once successfully installed, the clock will automatically restart.
 
-{: .important-title }
+{: .note }
 > If you have the necessary hardware to flash the clock, you can use the provided button on this webpage to directly flash the firmware. Here's how you can do it:
 >
 > 1. Connect the clock to your laptop via USB, using a flashing tool.
-> 2. Press the button below to initiate the flashing process. <br/><br/><p class="button-row" align="left"><esp-web-install-button manifest="./word-clock-one-manifest.json"></esp-web-install-button></p>
+> 2. Press the button below to initiate the flashing process. <br/><br/><esp-web-install-button manifest="./word-clock-one-manifest.json" />
 >
 > 3. Select the device from the options presented.
-> 4. Once you click "upload," the firmware will be installed onto the clock.
+> 4. Once you click `Upload`, the firmware will be installed onto the clock.
 >
 > Please ensure that you have the appropriate hardware and follow the instructions carefully when flashing the firmware to avoid any potential issues.
 

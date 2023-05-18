@@ -12,6 +12,9 @@ parent: Advanced Features
 This page provides instructions on how to edit the ESPHome code of your clock within the Home Assistant platform. By following the steps outlined on this page, you can customize and modify the code to tailor the functionality of your clock according to your specific needs.
 {: .fs-6 .fw-300 }
 
+{: .warning }
+Please note that modifying the ESPHome code installed on the clock is done at your own risk. Making changes to the code can potentially affect the functionality and performance of the clock. It is important to exercise caution, have a good understanding of the code, and make backups before proceeding with any modifications.
+
 If you wish to make more advanced changes to the clock, you will need to add the ESPHome code to your dashboard. Follow these steps to do so:
 
 1. Ensure that the clock has been added to [Home Assistant](https://www.home-assistant.io/). If you haven't done this yet, refer to the instructions for [Connecting to Home Assistant](https://skyextechnologies.github.io/word-clock-one/home-assistant/connecting-to-home-assistant.html).

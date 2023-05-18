@@ -32,5 +32,5 @@ In certain situations, it might not be possible to access the webpage via `word-
 {: .important-title }
 Please note that you can find the unique ID (`xxxxxx`) written on the backside of the clock.
 
-## Clock randomly turns off
+## Clock randomly restarts
 If you do not use a power supply with the correct ratings, you may experience an unstable clock that occasionally restarts due to insufficient power. It is important to ensure that the power supply or adapter you use meets the minimum requirements. Make sure that the power supply/adaptor provides at least 1A (ampere) of current and operates at 5V (volts). This will help ensure a stable power source and prevent issues related to insufficient power supply.

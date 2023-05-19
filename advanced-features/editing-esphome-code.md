@@ -13,7 +13,7 @@ This page provides instructions on how to edit the ESPHome code of your clock wi
 {: .fs-6 .fw-300 }
 
 {: .warning }
-Please note that modifying the ESPHome code installed on the clock is done at your own risk. Making changes to the code can potentially affect the functionality and performance of the clock. It is important to exercise caution, have a good understanding of the code, and make backups before proceeding with any modifications.
+**Please note that modifying the ESPHome code installed on the clock is done at your own risk.** Making changes to the code can potentially affect the functionality and performance of the clock. It is important to exercise caution, have a good understanding of the code, and make backups before proceeding with any modifications.
 
 If you wish to make more advanced changes to the clock, you will need to add the ESPHome code to your dashboard. Follow these steps to do so:
 

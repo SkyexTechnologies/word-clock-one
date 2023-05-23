@@ -17,7 +17,7 @@ This page provides instructions on how to edit the ESPHome code of your clock wi
 
 If you wish to make more advanced changes to the clock, you will need to add the ESPHome code to your dashboard. Follow these steps to do so:
 
-1. Ensure that the clock has been added to [Home Assistant](https://www.home-assistant.io/). If you haven't done this yet, refer to the instructions for [Connecting to Home Assistant](https://skyextechnologies.github.io/word-clock-one/home-assistant/connecting-to-home-assistant.html).
+1. Ensure that the clock has been added to [Home Assistant](https://www.home-assistant.io/). If you haven't done this yet, refer to the instructions for [Connecting to Home Assistant](https://skyextechnologies.github.io/word-clock-one/home-assistant.html).
 
 2. Make sure that the ESPHome Add-on [is installed](https://esphome.io/guides/getting_started_hassio.html) in Home Assistant.
 

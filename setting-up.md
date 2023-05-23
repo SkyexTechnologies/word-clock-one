@@ -57,7 +57,7 @@ Please note that the red, green, and blue values control the color of the light 
 When you connect your clock to Home Assistant, the color settings are configured using the option labeled `01. Word Clock` instead of the individual red, green, and blue sliders. By accessing the `01. Word Clock` setting, you can conveniently adjust the color scheme to your liking within the Home Assistant interface.
 
 {: .note-title }
-If you prefer a warm white color for your clock display, we recommend using the following color settings. *TODO*
+If you prefer a warm white color for your clock display, we recommend using the following color settings; `Red 1.00`, `Green 0.63` and `Blue 0.25`. 
 
 ## Brightness Control
 To control the brightness of your clock, you have two options available. The first option is the automatic mode, where the clock's brightness adjusts automatically based on the ambient light intensity in the room. This ensures optimal visibility and comfort in different lighting conditions.

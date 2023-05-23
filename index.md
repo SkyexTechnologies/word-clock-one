@@ -6,7 +6,8 @@ nav_order: 1
 
 {: .no_toc }
 
-Welcome to the documentation for the Word Clock One! This comprehensive guide will walk you through the necessary steps to set up and maximize the functionality of your device. Whether you're a first-time user or looking to troubleshoot any issues that may arise, we have you covered. {: .fs-6 .fw-300 }
+Welcome to the documentation for the Word Clock One! This comprehensive guide will walk you through the necessary steps to set up and maximize the functionality of your device. Whether you're a first-time user or looking to troubleshoot any issues that may arise, we have you covered. 
+{: .fs-6 .fw-300 }
 
 **TODO PICTURE OF CLOCK**
 

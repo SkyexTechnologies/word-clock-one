@@ -1,9 +1,0 @@
-{
-  "chipFamily": "ESP8266",
-  "parts": [
-    {
-      "path": "word-clock-one-esp8266/word-clock-one-esp8266.bin",
-      "offset": 0
-    }
-  ]
-}

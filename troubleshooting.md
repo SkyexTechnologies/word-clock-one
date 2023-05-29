@@ -19,7 +19,7 @@ As an alternative to using the physical push button on the back of the clock, yo
 ![Webpage Restart & Reset](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-restart-reset-marked-only.png)
 
 ## Time is incorrect
-The clock automatically sets the time based on the time settings of your router, including the time, time zone, and any adjustments for winter or summer time. However, if you find that the time is incorrect for any reason, you can manually adjust it using the sliders in the webpage labeled "06. Hour Offset" and "07. Minutes Offset". These sliders allow you to add the correct number of hours and minutes to align the clock with the accurate time. 
+The clock automatically sets the time based on the time settings of your router, including the time, time zone, and any adjustments for winter or summer time. However, if you find that the time is incorrect for any reason, you can manually adjust it using the sliders in the webpage labeled `06. Hour Offset` and `07. Minutes Offset`. These sliders allow you to add the correct number of hours and minutes to align the clock with the accurate time. 
 
 ![Webpage Time Offset](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-offset-marked-only.png)
 

@@ -89,7 +89,7 @@ To set a fixed brightness for your clock, follow these steps:
 By choosing the manual mode and adjusting the brightness using the `01. Word Clock` slider, you can establish a fixed brightness that remains constant regardless of the ambient light intensity. 
 
 ## Adjust Time
-Upon connecting, the clock automatically sets the time based on the time settings of your router, including the time, time zone, and any adjustments for winter or summer time. However, if you find that the time is incorrect for any reason, you can manually adjust it using the sliders labeled "06. Hour Offset" and "07. Minutes Offset". These sliders allow you to add the correct number of hours and minutes to align the clock with the accurate time. 
+Upon connecting, the clock automatically sets the time based on the time settings of your router, including the time, time zone, and any adjustments for winter or summer time. However, if you find that the time is incorrect for any reason, you can manually adjust it using the sliders labeled `06. Hour Offset` and `07. Minutes Offset`. These sliders allow you to add the correct number of hours and minutes to align the clock with the accurate time. 
 
 ![Webpage Time Offset](https://skyextechnologies.github.io/word-clock-one/images/web-server-entities-overview-offset-marked-only.png)
 
